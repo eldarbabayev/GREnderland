@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout   xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/wordListItem"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/Word"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:ellipsize="end"
+            android:layout_gravity="center"
+            android:padding="15dp"
+            android:textColor="@color/accent"/>
+
+        <TextView
+            android:id="@+id/Explanation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:ellipsize="end"
+            android:layout_gravity="center"
+            android:padding="15dp"
+            android:textColor="@android:color/black"/>
+
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView"
+        android:layout_gravity="center"
+        />
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:id="@+id/ToolbarWelcome"
+        android:background="@color/theme_primary"
+        android:titleTextColor="@color/white"
+        app:titleTextAppearance="@style/ToolbarTextAppearance"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:hint="@string/hintWord"
+        android:id="@+id/text1"
+        android:layout_marginTop="100dp"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:hint="@string/hintExplanation"
+        android:id="@+id/text2"
+        android:layout_marginTop="170dp"
+        />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:id="@+id/button"
+        android:layout_marginTop="0dp"
+        android:text="@string/button"
+        android:textAllCaps="false"
+        android:alpha="0.70"
+        android:onClick="addNewWordButton"
+        android:layout_gravity="center"
+        />
+
+
+</FrameLayout>

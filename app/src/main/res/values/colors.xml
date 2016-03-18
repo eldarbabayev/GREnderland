@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--
+    <color name="theme_primary">#00BCD4</color>
+    <color name="theme_dark">#0097A7</color>
+    <color name="theme_light">#E0F7FA</color> -->
+    <color name="black_alpha">#99000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <!--
+        <color name="theme_primary">#FF5722</color>
+        <color name="theme_dark">#D84315</color>
+        <color name="theme_light">#FBE9E7</color> -->
+
+        <color name="theme_primary">#26C6DA</color>
+        <color name="theme_dark">#00ACC1</color>
+        <color name="theme_light">#E0F7FA</color>
+        <color name="wring_choice">#E57373</color>
+    <color name="accent">#FF5252</color>
+
+</resources>

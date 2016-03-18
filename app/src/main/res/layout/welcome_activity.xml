@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView"
+        android:layout_gravity="center"
+        />
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:id="@+id/ToolbarWelcome"
+        android:background="@color/theme_primary"
+        android:titleTextColor="@color/white"
+        app:titleTextAppearance="@style/ToolbarTextAppearance"
+        />
+
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:id="@+id/custom"
+        android:layout_marginBottom="40dp"
+        android:layout_gravity="center"
+        android:text="@string/custom"
+        android:alpha="0.70"
+        android:textAllCaps="false"
+        android:onClick="customButton"
+
+        />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:id="@+id/base"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:text="@string/base"
+        android:textAllCaps="false"
+        android:onClick="baseButton"
+        android:alpha="0.70"
+
+
+        />
+
+
+
+</FrameLayout>

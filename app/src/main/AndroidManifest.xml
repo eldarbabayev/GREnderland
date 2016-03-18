@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.play.eldarbabayev.wordland" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:fullBackupContent="true"
+        >
+
+        <activity
+        android:name=".view.shared_activities.WelcomeActivity"
+        android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".view.custom_game.PlayActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".view.custom_game.AddWordActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".view.custom_game.MenuActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".view.custom_game.CustomDictionaryActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            >
+
+            </activity>
+
+         <activity
+             android:name=".view.base_game.BaseDictionaryActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".view.base_game.BaseMenuActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".view.base_game.BasePlayActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+
+
+        <provider
+            android:authorities="@string/content_authority"
+            android:name=".model.provider.WordsProvider"
+            android:exported="false">
+
+        </provider>
+
+
+    </application>
+
+</manifest>

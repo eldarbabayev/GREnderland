@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Wordland</string>
+
+    <string name="Title">Wordland</string>
+    <string name="content_authority">com.play.eldarbabayev2.grenderland</string>
+
+
+    <string name="custom">Start your journey</string>
+    <string name="base">Welcome to GREland</string>
+
+    <string name="play">Go to challenge</string>
+    <string name="dictionary">Check dictionary</string>
+    <string name="clean_database">clean database</string>
+    <string name="action_delete">delete item</string>
+
+
+    <string name="hintWord">please enter your word</string>
+    <string name="hintExplanation">can you kindly explain it?</string>
+    <string name="button">Thank you</string>
+
+    <string name="edit">edit list</string>
+    <string name="delete">delete item</string>
+    <string name="search">search item</string>
+
+
+</resources>
